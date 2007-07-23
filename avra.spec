@@ -1,5 +1,5 @@
 %define name    avra
-%define version 1.1.0
+%define version 1.2.2
 %define release %mkrel 1
 
 Name:           %{name}
@@ -11,6 +11,8 @@ License:        GPL
 Group:          Development/Other
 Url:         	http://avra.sourceforge.net/
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
 
 %description
 Avra is an GNU GPL'ed assembler for the Atmel AVR microcontrollers.
@@ -20,7 +22,7 @@ Features:
 - Conditional assembly.
 
 %prep
-%setup -q -c %{name}-%{version}
+%setup -q
 
 %build
 perl -pi -e "s|\r\n|\n|" ChangeLog README
