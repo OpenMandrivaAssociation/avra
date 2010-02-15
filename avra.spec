@@ -6,7 +6,7 @@ Name:           %{name}
 Version:        %{version}
 Release:        %{release}
 Summary:       	An AVR assembler
-Source0:        %{name}-%{version}a.tar.bz2
+Source0:        %{name}-%{version}.tar.bz2
 License:        GPLv2
 Group:          Development/Other
 Url:         	http://avra.sourceforge.net/
