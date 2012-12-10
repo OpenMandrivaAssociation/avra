@@ -45,3 +45,43 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/%{name}
 %defattr(0644,root,root,755)
 %doc README ChangeLog
+
+
+%changelog
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 1.2.3-2mdv2011.0
++ Revision: 610011
+- rebuild
+
+* Mon Feb 15 2010 Sandro Cazzaniga <kharec@mandriva.org> 1.2.3-1mdv2010.1
++ Revision: 506112
+- fix tarbal name
+- Fix licence to GPLv2
+- Update to 1.2.3
+
+* Tue Sep 01 2009 Thierry Vignaud <tv@mandriva.org> 1.2.2-4mdv2010.0
++ Revision: 424001
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 1.2.2-3mdv2009.0
++ Revision: 243095
+- rebuild
+
+* Thu Dec 20 2007 Olivier Blin <oblin@mandriva.com> 1.2.2-1mdv2008.1
++ Revision: 135825
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Mon Jul 23 2007 Couriousous <couriousous@mandriva.org> 1.2.2-1mdv2008.0
++ Revision: 54846
+- 1.2.2
+- Import avra
+
+
+
+* Tue Mar 21 2006 Lenny Cartier <lenny@mandriva.com> 1.1.0-1mdk
+- 1.1.0
+
+* Sun Mar 20 2005 Couriousous <couriousous@mandrake.org> 1.0.1-1mdk
+- First Mandrakelinux release
