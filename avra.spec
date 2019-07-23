@@ -4,7 +4,7 @@
 
 Name:           %{name}
 Version:        %{version}
-Release:        %{release}
+Release:	1
 Summary:       	An AVR assembler
 Source0:        %{name}-%{version}.tar.bz2
 License:        GPLv2
